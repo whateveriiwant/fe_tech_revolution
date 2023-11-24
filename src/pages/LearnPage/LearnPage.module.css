@@ -1,11 +1,9 @@
-.MainPage {
+.LearnPage {
   font-family: "Pretendard Variable";
   color: #d6fff6;
   background-color: #0f172a;
   width: 100%;
   height: 100vh;
-  flex: auto;
+  display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
