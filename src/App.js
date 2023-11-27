@@ -6,13 +6,16 @@ import { TrendPage } from "./pages/TrendPage/TrendPage";
 import { HistoryPage } from "./pages/HistoryPage/HistoryPage";
 import { FuturePage } from "./pages/FuturePage/FuturePage";
 import ScrollToTop from "./utils/ScrollToTop";
+import { Header } from "./components/Header/Header";
 
 function App() {
   return (
     <div>
       <Reset />
+
       <BrowserRouter>
         <ScrollToTop />
+        <Header />
         <Routes>
           <Route path="/" element={<MainPage />} />
           <Route path="/history" element={<HistoryPage />} />

@@ -6,7 +6,7 @@ import { Trend } from "./components/Trend";
 
 export const Page2 = () => {
   return (
-    <div className={styles.page2}>
+    <div className={styles.page2} id="page2">
       <div className={styles.container}>
         <History />
         <Trend />
@@ -16,6 +16,12 @@ export const Page2 = () => {
         <Future />
         <Learn />
       </div>
+      <div style={{ height: "3rem" }} />
+      <a href="#page3">
+        <span></span>
+        <div style={{ height: "2.8rem" }} />
+        Scroll
+      </a>
     </div>
   );
 };

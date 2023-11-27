@@ -7,7 +7,7 @@ export const History = () => {
     <>
       <Link to="/history" style={{ textDecoration: "none" }}>
         <div className={styles.history}>
-          <img src={history} alt="history" />
+          <img className={styles.img} src={history} alt="history" />
           <div className={styles.history_text}>
             <p className={styles.p1}>기술의 역사</p>
             <p className={styles.p2}>

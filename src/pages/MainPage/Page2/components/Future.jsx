@@ -7,7 +7,7 @@ export const Future = () => {
     <>
       <Link to="/future" style={{ textDecoration: "none" }}>
         <div className={styles.history}>
-          <img src={future} alt="future" />
+          <img className={styles.img} src={future} alt="future" />
           <div className={styles.history_text}>
             <p className={styles.p1}>미래의 기술</p>
             <p className={styles.p2}>

@@ -7,7 +7,7 @@ export const Learn = () => {
     <>
       <Link to="learn" style={{ textDecoration: "none" }}>
         <div className={styles.history}>
-          <img src={learn} alt="learn" />
+          <img className={styles.img} src={learn} alt="learn" />
           <div className={styles.history_text}>
             <p className={styles.p1}>학습 자원</p>
             <p className={styles.p2}>

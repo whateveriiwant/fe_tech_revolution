@@ -1,15 +1,35 @@
 .header {
+  width: 100vw;
   z-index: 10;
-  position: sticky;
+  position: fixed;
+  font-family: "Pretendard Variable";
   top: 0%;
   height: 4rem;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  margin-left: 20rem;
-  margin-right: 20rem;
+  background-color: transparent;
+  transition-property: background-color;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 400ms;
+}
+
+.fillheader {
+  width: 100vw;
+  z-index: 10;
+  position: fixed;
+  font-family: "Pretendard Variable";
+  top: 0%;
+  height: 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
   background-color: rgb(15, 23, 42, 0.75);
+  transition-property: background-color;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 400ms;
 }
 
 .nav {

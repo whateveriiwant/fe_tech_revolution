@@ -7,7 +7,7 @@ export const Trend = () => {
     <>
       <Link to="/trend" style={{ textDecoration: "none" }}>
         <div className={styles.history}>
-          <img src={trend} alt="trend" />
+          <img className={styles.img} src={trend} alt="trend" />
           <div className={styles.history_text}>
             <p className={styles.p1}>현재 트렌드</p>
             <p className={styles.p2}>

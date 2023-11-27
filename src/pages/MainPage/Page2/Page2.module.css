@@ -1,4 +1,5 @@
 .page2 {
+  width: 100%;
   height: 100vh;
   margin-left: 20rem;
   margin-right: 20rem;
@@ -6,6 +7,15 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  /* background-color: #0f172a;
+  background-color: linear-gradient(to bottom, transparent, #0f172a);
+  background-clip: content-box; */
+  background: rgb(15, 23, 42);
+  background: linear-gradient(
+    0deg,
+    rgba(15, 23, 42, 1) 50%,
+    rgba(0, 212, 255, 0) 100%
+  );
 }
 
 .container {
@@ -38,7 +48,7 @@
   background-color: rgb(44, 59, 83);
 }
 
-img {
+.img {
   width: 8rem;
   height: auto;
 }
@@ -54,4 +64,53 @@ img {
   font-weight: 200;
   line-height: 140%;
   color: #d6fff6;
+}
+
+a {
+  padding-top: 80px;
+  color: #d6fff6;
+  text-decoration: none;
+  font-weight: 100;
+}
+a span {
+  position: absolute;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-animation: sdb 2s infinite;
+  animation: sdb 2s infinite;
+  opacity: 0;
+  box-sizing: border-box;
+}
+a span:nth-of-type(1) {
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}
+
+@-webkit-keyframes sdb {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes sdb {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
