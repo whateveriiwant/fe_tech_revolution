@@ -44,11 +44,11 @@ button {
   margin-left: 3rem;
   margin-top: 1rem;
   cursor: pointer;
+  transition-property: background-color;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
 }
 
 button:hover {
   background-color: rgb(101, 177, 167);
-  transition-property: background-color;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 800ms;
 }
