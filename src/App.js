@@ -5,12 +5,14 @@ import { LearnPage } from "./pages/LearnPage/LearnPage";
 import { TrendPage } from "./pages/TrendPage/TrendPage";
 import { HistoryPage } from "./pages/HistoryPage/HistoryPage";
 import { FuturePage } from "./pages/FuturePage/FuturePage";
+import ScrollToTop from "./utils/ScrollToTop";
 
 function App() {
   return (
     <div>
       <Reset />
       <BrowserRouter>
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<MainPage />} />
           <Route path="/history" element={<HistoryPage />} />
