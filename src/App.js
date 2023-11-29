@@ -13,7 +13,7 @@ function App() {
     <div>
       <Reset />
 
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <ScrollToTop />
         <Header />
         <Routes>
