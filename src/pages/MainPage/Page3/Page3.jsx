@@ -17,7 +17,7 @@ export const Page3 = () => {
   return (
     <div className={styles.page3} id="page3">
       {modalOpen && <ShowModal onOpenModal={modalOpenHandler} />}
-      <Fade bottom>
+      <Fade bottom duration={1800} delay={50}>
         <div>
           <h1 className={styles.h1}>
             이 웹 페이지에 사용된 <br /> 프론트엔드 기술

@@ -8,7 +8,7 @@ import Fade from "react-reveal/Fade";
 export const Page2 = () => {
   return (
     <div className={styles.page2} id="page2">
-      <Fade bottom>
+      <Fade bottom duration={1800} delay={50}>
         <div className={styles.container}>
           <History />
           <Trend />
