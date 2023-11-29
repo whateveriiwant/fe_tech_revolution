@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/fe_tech_revolution/static/css/main.b196d4a7.css",
-    "main.js": "/fe_tech_revolution/static/js/main.abed6af1.js",
+    "main.js": "/fe_tech_revolution/static/js/main.ecbd1e38.js",
     "static/media/main.png": "/fe_tech_revolution/static/media/main.9b3ddeadc08d5f5c3f08.png",
     "static/media/trend.svg": "/fe_tech_revolution/static/media/trend.a2c682c3c4988854149dbfe5ffe7bca5.svg",
     "static/media/learn.svg": "/fe_tech_revolution/static/media/learn.5983c9ede2b4714f80d00fe20e266675.svg",
@@ -14,10 +14,10 @@
     "static/media/css.svg": "/fe_tech_revolution/static/media/css.4433c3f674c9f4a39aadf5aa9194ed2b.svg",
     "static/media/html.svg": "/fe_tech_revolution/static/media/html.4aa64ae89e863b1d72a666a38c8894f0.svg",
     "main.b196d4a7.css.map": "/fe_tech_revolution/static/css/main.b196d4a7.css.map",
-    "main.abed6af1.js.map": "/fe_tech_revolution/static/js/main.abed6af1.js.map"
+    "main.ecbd1e38.js.map": "/fe_tech_revolution/static/js/main.ecbd1e38.js.map"
   },
   "entrypoints": [
     "static/css/main.b196d4a7.css",
-    "static/js/main.abed6af1.js"
+    "static/js/main.ecbd1e38.js"
   ]
 }
