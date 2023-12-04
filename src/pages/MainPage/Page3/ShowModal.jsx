@@ -2,7 +2,7 @@ import { useEffect, useRef } from "react";
 import ModalPortal from "../../../utils/ModalPortal";
 import styles from "./Page3.module.css";
 
-export const ShowModal = ({ onOpenModal, text }) => {
+export const ShowModal = ({ onOpenModal, text, open }) => {
   useEffect(() => {
     document.body.style.overflow = "hidden";
     document.addEventListener("mousedown", outsideClickHandler);

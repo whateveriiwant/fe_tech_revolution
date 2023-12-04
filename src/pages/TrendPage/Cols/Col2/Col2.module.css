@@ -1,0 +1,94 @@
+.col2 {
+  margin-left: 1rem;
+  margin-top: 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+
+.col2_c1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 20rem;
+  height: 10rem;
+  border-radius: 15px;
+  background-color: rgb(30, 41, 59);
+  border: 1px solid rgb(53, 63, 79);
+  font-weight: bold;
+  font-size: 1.7rem;
+  line-height: 130%;
+  transition-property: background-color;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+  cursor: pointer;
+}
+
+.col2_c1 > div {
+  display: flex;
+  flex-direction: row;
+}
+
+.col2_c1:hover {
+  background-color: rgb(44, 59, 83);
+}
+
+.col2_c2 {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 20rem;
+  height: 15rem;
+  border-radius: 15px;
+  background-color: rgb(30, 41, 59);
+  border: 1px solid rgb(53, 63, 79);
+  font-weight: bold;
+  font-size: 1.7rem;
+  line-height: 130%;
+  transition-property: background-color;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+  cursor: pointer;
+}
+
+.col2_c2 > div {
+  display: flex;
+  flex-direction: row;
+}
+
+.col2_c2:hover {
+  background-color: rgb(44, 59, 83);
+}
+
+.col2_c3 {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 20rem;
+  height: 8rem;
+  border-radius: 15px;
+  background-color: rgb(30, 41, 59);
+  border: 1px solid rgb(53, 63, 79);
+  font-weight: bold;
+  font-size: 1.7rem;
+  line-height: 130%;
+  transition-property: background-color;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+  cursor: pointer;
+}
+
+.col2_c3 > div {
+  display: flex;
+  flex-direction: row;
+}
+
+.col2_c3:hover {
+  background-color: rgb(44, 59, 83);
+}
