@@ -1,23 +1,34 @@
 {
   "files": {
-    "main.css": "/fe_tech_revolution/static/css/main.b196d4a7.css",
-    "main.js": "/fe_tech_revolution/static/js/main.ecbd1e38.js",
+    "main.css": "/fe_tech_revolution/static/css/main.8a21b3d0.css",
+    "main.js": "/fe_tech_revolution/static/js/main.4298ddff.js",
     "static/media/main.png": "/fe_tech_revolution/static/media/main.9b3ddeadc08d5f5c3f08.png",
     "static/media/trend.svg": "/fe_tech_revolution/static/media/trend.a2c682c3c4988854149dbfe5ffe7bca5.svg",
     "static/media/learn.svg": "/fe_tech_revolution/static/media/learn.5983c9ede2b4714f80d00fe20e266675.svg",
     "static/media/history.svg": "/fe_tech_revolution/static/media/history.3248aa5e6d4679c78da756f772166023.svg",
     "static/media/bg.mp4": "/fe_tech_revolution/static/media/bg.c90fab888e47fc1ecac4.mp4",
     "static/media/future.svg": "/fe_tech_revolution/static/media/future.396d9163791e0039b226cadfa559ff18.svg",
+    "static/media/component.svg": "/fe_tech_revolution/static/media/component.38311e38936b6f8095c93cc146f7c66d.svg",
+    "static/media/responsive.png": "/fe_tech_revolution/static/media/responsive.de51b0678d0e78f77cc5.png",
+    "static/media/server.png": "/fe_tech_revolution/static/media/server.bfff79d6dbfe1ec8069e.png",
+    "static/media/pwa.png": "/fe_tech_revolution/static/media/pwa.7bbecf928ef29dc99438.png",
+    "static/media/dark.webp": "/fe_tech_revolution/static/media/dark.8c1085ad4ba73553715a.webp",
+    "static/media/svelte.svg": "/fe_tech_revolution/static/media/svelte.902bfbaddd2426a2cb37932a971dca94.svg",
+    "static/media/react-light.svg": "/fe_tech_revolution/static/media/react-light.88f1e0fd3f30e11b85eec059bcc3f8ea.svg",
     "static/media/react.svg": "/fe_tech_revolution/static/media/react.5400719fac93d212f24d18bfdf9c6e2f.svg",
+    "static/media/ts.svg": "/fe_tech_revolution/static/media/ts.4eb715e5f317743bdf2c0301426faf33.svg",
     "static/media/javascript.svg": "/fe_tech_revolution/static/media/javascript.242ec9b92c4fced562f88da3e8e57c01.svg",
+    "static/media/tailwindcss-light.svg": "/fe_tech_revolution/static/media/tailwindcss-light.d82fd050bfc7062700bb184a83af5206.svg",
     "index.html": "/fe_tech_revolution/index.html",
     "static/media/css.svg": "/fe_tech_revolution/static/media/css.4433c3f674c9f4a39aadf5aa9194ed2b.svg",
     "static/media/html.svg": "/fe_tech_revolution/static/media/html.4aa64ae89e863b1d72a666a38c8894f0.svg",
-    "main.b196d4a7.css.map": "/fe_tech_revolution/static/css/main.b196d4a7.css.map",
-    "main.ecbd1e38.js.map": "/fe_tech_revolution/static/js/main.ecbd1e38.js.map"
+    "static/media/angular.svg": "/fe_tech_revolution/static/media/angular.c70192e632ca7ff6e18832126701ad30.svg",
+    "static/media/vue.svg": "/fe_tech_revolution/static/media/vue.e59707ce7de5e46c12ac8dc08cd95d76.svg",
+    "main.8a21b3d0.css.map": "/fe_tech_revolution/static/css/main.8a21b3d0.css.map",
+    "main.4298ddff.js.map": "/fe_tech_revolution/static/js/main.4298ddff.js.map"
   },
   "entrypoints": [
-    "static/css/main.b196d4a7.css",
-    "static/js/main.ecbd1e38.js"
+    "static/css/main.8a21b3d0.css",
+    "static/js/main.4298ddff.js"
   ]
 }
