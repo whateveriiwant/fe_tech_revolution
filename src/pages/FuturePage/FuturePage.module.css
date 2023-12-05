@@ -3,7 +3,122 @@
   color: #d6fff6;
   background-color: #0f172a;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
+}
+
+.wrap_serverless {
+  position: relative;
+}
+
+.wrap_serverless::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(to bottom, transparent 70%, #0f172a);
+}
+
+.serverless_p1 {
+  position: absolute;
+  top: 30%;
+  left: 17.3%;
+  font-weight: bold;
+  font-size: 4rem;
+}
+.serverless_p1 span {
+  background: #a6c0fe;
+  background: linear-gradient(to bottom right, #a6c0fe 0%, #f68084 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.serverless_p2 {
+  position: absolute;
+  top: 40%;
+  left: 17.3%;
+  font-weight: 200;
+  font-size: 1.2rem;
+  line-height: 140%;
+  margin-top: 2rem;
+}
+
+.wrap_webapp {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 35rem;
+}
+
+.wrap_webapp div {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: center;
+}
+
+.webapp_p1 {
+  font-weight: bold;
+  font-size: 4rem;
+  margin-left: 6.6rem;
+}
+.webapp_p1 span {
+  background: #fddb92;
+  background: linear-gradient(to bottom right, #fddb92 0%, #d1fdff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.webapp_p2 {
+  font-weight: 200;
+  font-size: 1.2rem;
+  line-height: 140%;
+  margin-top: 1.3rem;
+  text-align: end;
+}
+
+.wrap_realtime {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* height: 35rem; */
+  margin-top: -3rem;
+}
+
+.wrap_realtime::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(to top, transparent 80%, #0f172a);
+}
+
+.realtime_p1 {
+  top: 40%;
+  position: absolute;
+  font-weight: bold;
+  font-size: 4rem;
+}
+.realtime_p1 span {
+  background: #f9d423;
+  background: linear-gradient(to bottom right, #f9d423 0%, #ff4e50 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.realtime_p2 {
+  top: 50%;
+  position: absolute;
+  font-weight: 200;
+  font-size: 1.2rem;
+  line-height: 140%;
+  text-align: center;
 }
