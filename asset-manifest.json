@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/fe_tech_revolution/static/css/main.533aaa19.css",
-    "main.js": "/fe_tech_revolution/static/js/main.92ef0829.js",
+    "main.css": "/fe_tech_revolution/static/css/main.e9dfc787.css",
+    "main.js": "/fe_tech_revolution/static/js/main.db8ef542.js",
     "static/media/main.png": "/fe_tech_revolution/static/media/main.9b3ddeadc08d5f5c3f08.png",
     "static/media/realtime.png": "/fe_tech_revolution/static/media/realtime.27e7ab13ed170c0619ec.png",
     "static/media/trend.svg": "/fe_tech_revolution/static/media/trend.a2c682c3c4988854149dbfe5ffe7bca5.svg",
@@ -27,11 +27,12 @@
     "static/media/html.svg": "/fe_tech_revolution/static/media/html.4aa64ae89e863b1d72a666a38c8894f0.svg",
     "static/media/angular.svg": "/fe_tech_revolution/static/media/angular.c70192e632ca7ff6e18832126701ad30.svg",
     "static/media/vue.svg": "/fe_tech_revolution/static/media/vue.e59707ce7de5e46c12ac8dc08cd95d76.svg",
-    "main.533aaa19.css.map": "/fe_tech_revolution/static/css/main.533aaa19.css.map",
-    "main.92ef0829.js.map": "/fe_tech_revolution/static/js/main.92ef0829.js.map"
+    "static/media/arrow.svg": "/fe_tech_revolution/static/media/arrow.3d00ff0cdd690569bc7fc83aeab3e8aa.svg",
+    "main.e9dfc787.css.map": "/fe_tech_revolution/static/css/main.e9dfc787.css.map",
+    "main.db8ef542.js.map": "/fe_tech_revolution/static/js/main.db8ef542.js.map"
   },
   "entrypoints": [
-    "static/css/main.533aaa19.css",
-    "static/js/main.92ef0829.js"
+    "static/css/main.e9dfc787.css",
+    "static/js/main.db8ef542.js"
   ]
 }
