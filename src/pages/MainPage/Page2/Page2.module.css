@@ -66,13 +66,13 @@
   color: #d6fff6;
 }
 
-a {
+.a {
   padding-top: 80px;
   color: #d6fff6;
   text-decoration: none;
   font-weight: 100;
 }
-a span {
+.a span {
   position: absolute;
   left: 50%;
   width: 24px;
@@ -87,7 +87,7 @@ a span {
   opacity: 0;
   box-sizing: border-box;
 }
-a span:nth-of-type(1) {
+.a span:nth-of-type(1) {
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
 }

@@ -21,7 +21,7 @@ export const Page2 = () => {
         <div style={{ height: "3rem" }} />
       </Fade>
 
-      <a href="#page3">
+      <a className={styles.a} href="#page3">
         <span></span>
         <div style={{ height: "2.8rem" }} />
         Scroll
