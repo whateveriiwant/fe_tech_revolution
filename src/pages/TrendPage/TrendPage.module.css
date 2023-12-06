@@ -27,8 +27,8 @@
 .modal_item {
   width: 40rem;
   min-height: 20rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  max-height: 40rem;
+  overflow: auto;
   display: flex;
   flex-direction: column;
   align-items: center;

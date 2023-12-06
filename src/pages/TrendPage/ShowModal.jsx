@@ -24,7 +24,7 @@ export const ShowModal = ({ onOpenModal, text }) => {
     <ModalPortal>
       <div className={styles.modal}>
         <div className={styles.modal_item} ref={modalRef}>
-          {text}
+          <div style={{ marginTop: "0rem", paddingBottom: "0rem" }}>{text}</div>
         </div>
       </div>
     </ModalPortal>
